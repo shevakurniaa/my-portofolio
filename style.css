@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document*/
+body{
+    background-image: linear-gradient(to bottom, #be93c5, #7bc6cc);
+    margin:0px;
+    padding:0px;
+}
+ 
+ul{
+    list-style:none;
+}
+ 
+a{
+    text-decoration:none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:60px;
+    background-color:#be93c5;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    padding:0px 5%;
+     
+}
+nav ul{
+    display: flex;
+}
+  
+nav ul li a{
+    margin:30px;
+    font-family:Roadtest;
+    color:#000000;
+    font-size: 15px;
+    font-weight:700;
+}
+ 
+.logo{
+    font-family:RoadTest;
+    color:#000000;
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+.active{
+    color:#2d2a2a;
+    font-weight:bold;
+}
+
+.tr1 {
+    background-image: linear-gradient(to bottom, #be93c5, #7bc6cc);
+    text-align: center;
+}
+
+.tr2 {
+    background-image: linear-gradient(to bottom, #be93c5, #7bc6cc);
+    text-align: center;
+}
